@@ -1,0 +1,275 @@
+﻿
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #771011;
+    text-align: start;
+    width: 100%;
+    height: 13%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
+        header nav h1 {
+            font-size: 45px;
+            color: white;
+            font-weight: bold;
+            margin:18px;
+        }
+
+
+
+
+.contenedor {
+    flex: 1;
+    overflow: auto;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.list {
+    flex: 1;
+    min-width: 180px;
+    width: 20%;
+    border-right: solid;
+    border-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #771011;
+    box-shadow: 2px 6px 6px black;
+}
+
+    .list div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+        .list div ul {
+            list-style-type: none;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            width: 90%;
+        }
+
+            .list div ul li {
+                width: 105%;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                margin: 20px;
+                color:#ece6d3;
+                background-color: #aa3233;
+                flex: 1;
+                border-radius:20px;
+                flex-wrap: wrap;
+            }
+
+
+ a:hover {
+    color: black;
+    font-weight: 700;
+    background-color: #b26363;
+    border-radius: 2px;
+}
+
+
+            .list div ul img {
+                width: 20%;
+                margin-right: 9px;
+            }
+
+                .list div ul content {
+                    background: #E4E4E4;
+                    width: 100%;
+                    margin: 0px;
+                    text-align: center;
+                }
+
+
+.derecha {
+    display: none;
+    width: 100%;
+    margin: 5px;
+   
+}
+
+    .derecha#tarea1 {
+        display: flex;
+    }
+
+    .derecha form {
+        background-color: white;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        border: solid;
+        border-color: #E4E4E4;
+    }
+
+    .derecha .info {
+       
+        flex:1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+    }
+        .derecha .info img{
+
+            width:100%;
+            height:100%;
+            
+        }
+        .derecha .info p{
+            margin:10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size:15px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color:#771011;
+    height: 10%;
+    position:fixed;
+    width:100%;
+    justify-content: space-between;
+    
+}
+
+header label{
+     font-size:37px;
+     padding:10px;
+     color:#ece6d3;
+     font-weight:bold;
+}
+
+.menu {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: #771011;
+    overflow:hidden;
+    padding-top:90px;
+
+}
+
+    .menu a {
+        padding: 16px;
+        text-decoration: none;
+        color: #ece6d3;
+        display:block;
+        opacity:0.9;
+        margin-bottom:10px;
+        text-align:justify;
+    }
+
+    .menu img{
+        width:20%;
+        margin-right:9px;
+
+    }
+
+    .menu a:hover{
+        color:black;
+        font-weight:700;
+        background-color:#b26363;
+        border-radius:26px;
+    }
+
+    .informacion {
+         display:none;
+         width:100%;
+         margin:5px;
+         background-color:aqua;
+
+    }
+
+        .informacion form {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            border: solid;
+            border-color: #E4E4E4;
+        }
+         
+        .informacion form h2{
+            text-align:center;
+        }
+    */
